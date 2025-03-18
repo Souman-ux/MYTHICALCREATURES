@@ -1,0 +1,6 @@
+@MythicalCreatures_HostAddress = http://localhost:5239
+
+GET {{MythicalCreatures_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
