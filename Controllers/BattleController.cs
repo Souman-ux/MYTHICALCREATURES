@@ -10,11 +10,23 @@ namespace MythicalCreatures.Controllers
         [HttpPost("battle")]
         public ActionResult<BattleResult> Battle([FromBody] BattleRequest request)
         {
-            var result = new BattleResult
+            Creature result;
+
+            if (request.Creature1.Strength > request.Creature2.Strength)
             {
-                Winner = "Phoenix",
-                Message = "Phoenix wins the battle!"
-            };
+                result = request.Creature1;
+            }
+            else
+            {
+                result = request.Creature2;
+            }
+
+
+            // var result = new BattleResult
+            // {
+            //     Winner = request.Creature1,
+            //     Message = "Phoenix wins the battle!"
+            // };
 
             return Ok(result);
         }
@@ -24,7 +36,7 @@ namespace MythicalCreatures.Controllers
         {
             var result = new BattleResult
             {
-                Winner = "Phoenix",
+                Winner = new Creature() { Name = "Phoenix" },
                 Message = "Phoenix wins the battle!"
             };
 
