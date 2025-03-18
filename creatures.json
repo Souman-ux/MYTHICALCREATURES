@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 1,
+    "Name": "TypeR",
+    "Type": "Shit",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0,
+    "Health": 0,
+    "Attack": 0,
+    "SpecialAbility": ""
+  },
+  {
+    "Id": 2,
+    "Name": "Sharp",
+    "Type": "Frost Dragon",
+    "Strength": 14,
+    "Agility": 7,
+    "Intelligence": 12,
+    "Health": 0,
+    "Attack": 0,
+    "SpecialAbility": ""
+  },
+  {
+    "Id": 3,
+    "Name": "school",
+    "Type": "good",
+    "Strength": 100,
+    "Agility": 10,
+    "Intelligence": 5,
+    "Health": 0,
+    "Attack": 0,
+    "SpecialAbility": ""
+  },
+  {
+    "Id": 4,
+    "Name": "college",
+    "Type": "verygood",
+    "Strength": 10,
+    "Agility": 1000,
+    "Intelligence": 2,
+    "Health": 0,
+    "Attack": 0,
+    "SpecialAbility": ""
+  },
+  {
+    "Id": 5,
+    "Name": "kukka",
+    "Type": "rose",
+    "Strength": 1,
+    "Agility": 2,
+    "Intelligence": 0,
+    "Health": 0,
+    "Attack": 0,
+    "SpecialAbility": ""
+  },
+  {
+    "Id": 6,
+    "Name": "",
+    "Type": "",
+    "Strength": 0,
+    "Agility": 0,
+    "Intelligence": 0,
+    "Health": 0,
+    "Attack": 0,
+    "SpecialAbility": ""
+  }
+]
